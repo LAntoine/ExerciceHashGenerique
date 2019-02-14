@@ -1,7 +1,6 @@
 #include "hash.h"
 #include <iostream>
 #include <vector>
-
 using std::string;
 using std::cout;
 using std::endl;
@@ -60,5 +59,7 @@ int main(int argc, char *argv[])
 		cout <<  "hashName_V" << version() << "()" << "('"<< *it << "'):" << output << endl;
 
 	}
+	int foo;
+	std::cin >> foo; /*too avoid having the window close immediately*/
 }
 
